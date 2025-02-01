@@ -26,13 +26,32 @@ bot.on('messageCreate', async (message) => {
     if (message.author.bot) return; // Ignorar mensajes de otros bots
     const args = message.content.split(' ');
     if (args[0] !== '!valion') return;
-    
-    const command = args[1]; // Obtenemos el comando (por ejemplo, "jugadores")
+    const command = args[1];
+
     try {
-        const response = await axios.get(`http://localhost:3000/api/${command}`);
-        message.reply(response.data.message);
+
+        if(args.length<=2) {
+            const response = await axios.get(`http://localhost:3000/api/${command}`);
+            message.reply(response.data.message);
+        } 
+
+        if(args.length>2){
+            const newArray = args.slice(2);
+            const [playerId, item, quantity, quality, isBp] = newArray;
+            const data = {
+                playerId,
+                item,
+                quantity, 
+                quality,
+                isBp
+            };
+
+            const response = await axios.post(`http://localhost:3000/api/${command}`, data);
+            message.reply(response.data.message);
+        }
+
     } catch (error) {
-        console.error('Error al ejecutar el comando:', error);
+        //console.error('Error al ejecutar el comando:', error);
         message.reply('Hubo un error al ejecutar el comando.');
     }
 });
