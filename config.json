@@ -1,0 +1,60 @@
+{
+    "RCON_SERVERS": {
+        "Aberración": {
+            "RCON_HOST": "217.114.196.81",
+            "RCON_PORT": 11630,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Amissa": {
+            "RCON_HOST": "217.114.196.56",
+            "RCON_PORT": 12000,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Capital": {
+            "RCON_HOST": "217.114.196.81",
+            "RCON_PORT": 11720,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Scorch": {
+            "RCON_HOST": "217.114.196.57",
+            "RCON_PORT": 11050,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Esmeralda": {
+            "RCON_HOST": "217.114.196.34",
+            "RCON_PORT": 11610,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Diamond": {
+            "RCON_HOST": "217.114.196.24",
+            "RCON_PORT": 11690,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Descended": {
+            "RCON_HOST": "217.114.196.81",
+            "RCON_PORT": 11250,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Gold": {
+            "RCON_HOST": "217.114.196.54",
+            "RCON_PORT": 11380,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "Lucky": {
+            "RCON_HOST": "217.114.196.5",
+            "RCON_PORT": 11970,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "The Center": {
+            "RCON_HOST": "217.114.196.61",
+            "RCON_PORT": 11180,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        },
+        "La isla": {
+            "RCON_HOST": "217.114.196.30",
+            "RCON_PORT": 11140,
+            "RCON_PASS": "DF#$wercv45%345rf&%&G$GREef563sfddsgvV%&"
+        }
+        
+    }
+}

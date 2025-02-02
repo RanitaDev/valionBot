@@ -9,6 +9,6 @@ const {
 // Rutas usando las funciones de 'showAllPlayers'
 router.get('/jugadores', getAllPlayers); // Ruta para obtener los jugadores
 
-router.post('/giveItemToPlayer', giveItemToPlayer);
+//router.post('/giveItemToPlayer', giveItemToPlayer);
 
 module.exports = router;
